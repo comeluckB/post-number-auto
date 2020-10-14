@@ -1,6 +1,6 @@
 var tmpdata = [];
 var data = [];
-var URL2 = 'https://comeluckb.github.io/post-number-auto/'
+var URL2 = 'https://comeluckb.github.io/post-number-auto/post-master/post-master/'
 var st;
 
 /* 必要なcsvファイルを探す関数 */
