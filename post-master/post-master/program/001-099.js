@@ -1,6 +1,6 @@
 var tmpdata = [];
 var data = [];
-var URL2 = 'https://takuya-wada-0720.github.io/post/'
+var URL2 = 'https://comeluckb.github.io/post-number-auto/'
 var st;
 
 /* 必要なcsvファイルを探す関数 */

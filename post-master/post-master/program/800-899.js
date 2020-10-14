@@ -1,6 +1,6 @@
 var tmpdata = [];
 var data = [];
-var URL2 = 'https://takuya-wada-0720.github.io/post/'
+var URL2 = 'https://comeluckb.github.io/post-number-auto/'
 var st;
 
 function search2_8(num2,post_program) {
@@ -30,7 +30,7 @@ function CSVtoArray(str,post_program){
   }
   search3(data,post_program)
 }
-    
+
 function search3(d,post_program) {
   var htmldata = post_program[0].innerHTML;
   htmldata = htmldata.replace(" ","");
