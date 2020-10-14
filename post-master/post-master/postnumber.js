@@ -1,5 +1,5 @@
 var postnum;
-var URL1 = 'https://takuya-wada-0720.github.io/post/program/'
+var URL1 = 'https://comeluckb.github.io/post-number-auto/post-master/post-master/program/'
 
 /* ウィンドウが読み込まれたら実行する */
 window.addEventListener('load',function(){
@@ -7,7 +7,7 @@ window.addEventListener('load',function(){
     /* class="post_program"内のデータを配列post_programに入れる */
     /* また、class="post_num"内のデータを配列postnum_classに入れる */
     /* ※ここの段階ではまだHTML内の情報を取得してだけでフォームに書かれた情報は読み取っていない */
-    var post_program = document.getElementsByClassName("post_program"); 
+    var post_program = document.getElementsByClassName("post_program");
     var postnum_class = post_program[0].getElementsByClassName("post_num");
     /* 郵便番号を入力するフォームが1つの場合の処理 */
     if(postnum_class.length == 1){
@@ -22,7 +22,7 @@ window.addEventListener('load',function(){
                 /* 半角スペースを消す */
                 htmldata = htmldata.replace(" ","");
                 /* 文字列内に指定された出力先classが存在するか調べる */
-                /* 存在すればtrue、存在しないならfalseを返す */ 
+                /* 存在すればtrue、存在しないならfalseを返す */
                 var result1 = htmldata.includes('class="strt_add1"');
                 var result2 = htmldata.includes('class="strt_add2"');
                 var result3 = htmldata.includes('class="strt_add"');
